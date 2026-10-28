@@ -1,0 +1,1042 @@
+[
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": "backup\\STAR_tasks_20261026_144515",
+    "timestamp": "2026-10-26T14:45:15.822917",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\ekta_text_file.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T14:45:15.825828",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": "backup\\STAR_tasks_20261026_144538",
+    "timestamp": "2026-10-26T14:45:38.926645",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\fibonacci_generator.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T14:45:38.927274",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "{{root}}\\{{folder_name}}",
+    "backup_path": null,
+    "timestamp": "2026-10-26T14:47:34.088590",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "{{root}}\\{{folder_name}}\\app.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T14:47:34.089100",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": "backup\\STAR_tasks_20261026_144758",
+    "timestamp": "2026-10-26T14:47:58.935540",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\app.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T14:47:58.936068",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "${{root}}\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T14:48:26.832280",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "${{root}}\\STAR_tasks\\Desktop.txt",
+    "backup_path": null,
+    "timestamp": "2026-10-26T14:48:26.832280",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks",
+    "backup_path": "backup\\STAR_tasks_20261026_144854",
+    "timestamp": "2026-10-26T14:48:54.573660",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt",
+    "backup_path": null,
+    "timestamp": "2026-10-26T14:48:54.573660",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:39:10.698769",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\ekta_text_file.txt",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:39:10.699411",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\fibonacci_scripts",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:39:28.375932",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\fibonacci_scripts\\app.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:39:28.377194",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:40:25.187770",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks\\app.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:40:25.188520",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:40:43.730110",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\app.py",
+    "backup_path": "backup\\app_20261026_164043.py",
+    "timestamp": "2026-10-26T16:40:43.731845",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\STAR_workspace\\amare_files",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:41:33.561162",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:42:02.792588",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\Desktop.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:42:02.794614",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:42:23.601064",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt",
+    "backup_path": "backup\\test_🎉_20261026_164223.txt",
+    "timestamp": "2026-10-26T16:42:23.602742",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "${{root}}\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:44:51.239947",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "${{root}}\\STAR_tasks\\text_file.txt",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:44:51.239947",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:45:18.781036",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:45:18.781591",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:46:02.860662",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\index.html",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:46:02.862008",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\style.css",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:46:02.862818",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:46:38.217951",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\STAR_tasks\\app.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:46:38.219030",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:46:54.848730",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\app.py",
+    "backup_path": "backup\\app_20261026_164654.py",
+    "timestamp": "2026-10-26T16:46:54.853563",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:47:43.348590",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:47:43.349118",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:48:04.284937",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\test_🎉.txt",
+    "backup_path": null,
+    "timestamp": "2026-10-26T16:48:04.285490",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T17:17:02.029912",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\test.txt",
+    "backup_path": null,
+    "timestamp": "2026-10-26T17:17:02.029912",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T17:17:19.455515",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py",
+    "backup_path": "backup\\fibonacci_20261026_171719.py",
+    "timestamp": "2026-10-26T17:17:19.460836",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website",
+    "backup_path": null,
+    "timestamp": "2026-10-26T17:18:15.557355",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\css",
+    "backup_path": null,
+    "timestamp": "2026-10-26T17:18:15.557919",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\calculator_website.html",
+    "backup_path": null,
+    "timestamp": "2026-10-26T17:18:15.558432",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\css\\calculator_website.css",
+    "backup_path": null,
+    "timestamp": "2026-10-26T17:18:15.559605",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test",
+    "backup_path": null,
+    "timestamp": "2026-10-26T18:31:52.379833",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test\\app.py",
+    "backup_path": null,
+    "timestamp": "2026-10-26T18:31:52.380794",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\STAR_workspace\\file_search",
+    "backup_path": null,
+    "timestamp": "2026-10-26T18:32:59.112150",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T18:33:25.169160",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+    "backup_path": "backup\\save_file_20261026_183325.py",
+    "timestamp": "2026-10-26T18:33:25.174877",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-26T18:33:54.500444",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\test_🎉.txt",
+    "backup_path": "backup\\test_🎉_20261026_183354.txt",
+    "timestamp": "2026-10-26T18:33:54.507480",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:14:55.893470",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\example.txt",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:14:55.897137",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:15:15.824126",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py",
+    "backup_path": "backup\\fibonacci_20261027_101515.py",
+    "timestamp": "2026-10-27T10:15:15.837934",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:16:25.231579",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website.html",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:16:25.233786",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website.css",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:16:25.235605",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:17:13.569885",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test\\app.py",
+    "backup_path": "backup\\app_20261027_101713.py",
+    "timestamp": "2026-10-27T10:17:13.573411",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:18:42.242631",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+    "backup_path": "backup\\save_file_20261027_101842.py",
+    "timestamp": "2026-10-27T10:18:42.245306",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:19:12.777625",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt",
+    "backup_path": "backup\\test_🎉_20261027_101912.txt",
+    "timestamp": "2026-10-27T10:19:12.781562",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:20:39.874528",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\example.txt",
+    "backup_path": "backup\\example_20261027_102039.txt",
+    "timestamp": "2026-10-27T10:20:39.882542",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:21:04.266475",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py",
+    "backup_path": "backup\\fibonacci_20261027_102104.py",
+    "timestamp": "2026-10-27T10:21:04.275687",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:21:58.893387",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:21:58.900353",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\index.html",
+    "backup_path": "backup\\index_20261027_102158.html",
+    "timestamp": "2026-10-27T10:21:58.906694",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\style.css",
+    "backup_path": "backup\\style_20261027_102158.css",
+    "timestamp": "2026-10-27T10:21:58.913642",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:22:37.235222",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test\\app.py",
+    "backup_path": "backup\\app_20261027_102237.py",
+    "timestamp": "2026-10-27T10:22:37.244747",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:23:32.113760",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\save_file.py",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:23:32.118585",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:26:18.061483",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\test.txt",
+    "backup_path": "backup\\test_20261027_102618.txt",
+    "timestamp": "2026-10-27T10:26:18.068704",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:26:36.632011",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py",
+    "backup_path": "backup\\fibonacci_20261027_102636.py",
+    "timestamp": "2026-10-27T10:26:36.641419",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:27:27.553661",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:27:27.557717",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\index.html",
+    "backup_path": "backup\\index_20261027_102727.html",
+    "timestamp": "2026-10-27T10:27:27.563574",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:27:59.307946",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test\\app.py",
+    "backup_path": "backup\\app_20261027_102759.py",
+    "timestamp": "2026-10-27T10:27:59.314363",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:28:54.677287",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+    "backup_path": "backup\\save_file_20261027_102854.py",
+    "timestamp": "2026-10-27T10:28:54.680220",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:29:29.855804",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt",
+    "backup_path": "backup\\test_🎉_20261027_102929.txt",
+    "timestamp": "2026-10-27T10:29:29.859367",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:31:02.917216",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\test.txt",
+    "backup_path": "backup\\test_20261027_103102.txt",
+    "timestamp": "2026-10-27T10:31:02.921959",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:31:21.514368",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py",
+    "backup_path": "backup\\fibonacci_20261027_103121.py",
+    "timestamp": "2026-10-27T10:31:21.523394",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:32:11.306289",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:32:11.308465",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\index.html",
+    "backup_path": "backup\\index_20261027_103211.html",
+    "timestamp": "2026-10-27T10:32:11.311841",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:32:45.534995",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\voice-brain-phase01-source\\personal-voice-backend\\models\\test\\app.py",
+    "backup_path": "backup\\app_20261027_103245.py",
+    "timestamp": "2026-10-27T10:32:45.542419",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:33:38.498287",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+    "backup_path": "backup\\save_file_20261027_103338.py",
+    "timestamp": "2026-10-27T10:33:38.504484",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:34:03.136317",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+    "backup_path": "backup\\save_file_20261027_103403.py",
+    "timestamp": "2026-10-27T10:34:03.142218",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:54:40.378140",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py",
+    "backup_path": "backup\\fibonacci_20261027_105440.py",
+    "timestamp": "2026-10-27T10:54:40.380943",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:56:30.227223",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+    "backup_path": "backup\\save_file_20261027_105630.py",
+    "timestamp": "2026-10-27T10:56:30.235742",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T10:56:49.380923",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt",
+    "backup_path": "backup\\test_🎉_20261027_105649.txt",
+    "timestamp": "2026-10-27T10:56:49.390178",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T11:01:42.369140",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\empty_file.txt",
+    "backup_path": null,
+    "timestamp": "2026-10-27T11:01:42.369821",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\empty_file.txt\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T11:01:52.501286",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\empty_file.txt\\STAR_tasks\\save_file.py",
+    "backup_path": null,
+    "timestamp": "2026-10-27T11:01:52.501286",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T11:02:28.050080",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt",
+    "backup_path": "backup\\test_🎉_20261027_110228.txt",
+    "timestamp": "2026-10-27T11:02:28.053859",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T22:16:03.360100",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\test.txt",
+    "backup_path": "backup\\test_20261027_221603.txt",
+    "timestamp": "2026-10-27T22:16:03.363199",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T22:16:20.626986",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py",
+    "backup_path": "backup\\fibonacci_20261027_221620.py",
+    "timestamp": "2026-10-27T22:16:20.627999",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website",
+    "backup_path": null,
+    "timestamp": "2026-10-27T22:17:39.083050",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T22:17:39.084977",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\index.html",
+    "backup_path": "backup\\index_20261027_221739.html",
+    "timestamp": "2026-10-27T22:17:39.088884",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T22:18:29.136626",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\calculator_website\\app.py",
+    "backup_path": null,
+    "timestamp": "2026-10-27T22:18:29.144368",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Desktop\\STAR_tasks\\report",
+    "backup_path": null,
+    "timestamp": "2026-10-27T22:18:52.460894",
+    "reversible": true,
+    "created_new": true
+  },
+  {
+    "action": "make_dir",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks",
+    "backup_path": null,
+    "timestamp": "2026-10-27T22:19:56.644987",
+    "reversible": true,
+    "created_new": false
+  },
+  {
+    "action": "write_text",
+    "target": "C:\\Users\\nilan\\Documents\\STAR_tasks\\save_file.py",
+    "backup_path": "backup\\save_file_20261027_221956.py",
+    "timestamp": "2026-10-27T22:19:56.653230",
+    "reversible": true,
+    "created_new": false
+  }
+]

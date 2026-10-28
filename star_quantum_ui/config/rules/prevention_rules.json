@@ -1,0 +1,38 @@
+[
+  {
+    "task_type": "file_manage",
+    "rule": "Age folder check koro, tarpor file save koro",
+    "error_type": "FolderNotFound",
+    "created": "2026-10-26"
+  },
+  {
+    "task_type": "web_build",
+    "rule": "Always add viewport meta tag and test mobile responsiveness",
+    "error_type": "MissingResponsiveLayout",
+    "created": "2026-10-26"
+  },
+  {
+    "task_type": "web_research",
+    "rule": "Research e minimum 3 source use koro and cross-verify facts",
+    "error_type": "InsufficientSources",
+    "created": "2026-10-26"
+  },
+  {
+    "task_type": "coding",
+    "rule": "Code edit er age backup nao ebong scratch sandbox e test koro",
+    "error_type": "UntestedCodeMutation",
+    "created": "2026-10-26"
+  },
+  {
+    "task_type": "network",
+    "rule": "Verify URL protocol and validity before network request",
+    "error_type": "InvalidUrl",
+    "created": "2026-10-27"
+  },
+  {
+    "task_type": "file_manage",
+    "rule": "Verify parameters for write_text before running and confirm overwrite permission",
+    "error_type": "FileConflictOverwrite",
+    "created": "2026-10-27"
+  }
+]

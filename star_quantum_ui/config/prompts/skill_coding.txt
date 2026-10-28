@@ -1,0 +1,1 @@
+Skill Coding: Write clean, modular Python. Include full type hints, docstrings, try/except blocks, logging, and an if __name__ == '__main__' guard. Run sandbox test in scratch/ first. Max 3 self-healing attempts if compile or execution fails.

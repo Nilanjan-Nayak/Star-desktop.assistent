@@ -1,0 +1,4 @@
+{"timestamp": 1792738225.5219338, "intent": "copy_files_by_pattern", "tool": "copy_files", "error": "1 of 2 files not copied", "context": "Copy the files and verify them by hash"}
+{"timestamp": 1792738226.2200847, "intent": "copy_files_by_pattern", "tool": "copy_files", "error": "2 of 10 files not copied", "context": "Copy the files and verify them by hash"}
+{"timestamp": 1792738226.9129157, "intent": "copy_files_by_pattern", "tool": "copy_files", "error": "verification failed: every file present and identical at destination: 1 missing or different: c.json; tool's own count agrees with the disk: tool reported 0, disk shows 2", "context": "Copy the files and verify them by hash"}
+{"timestamp": 1792738227.8168814, "intent": "copy_files_by_pattern", "tool": "copy_files", "error": "RuntimeError: boom", "context": "Copy the files and verify them by hash"}

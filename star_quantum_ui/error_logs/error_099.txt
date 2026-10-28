@@ -1,0 +1,13 @@
+====================================================
+ERROR LOG: #099
+Date/Time: 2026-10-27T22:19:17.272793
+Command: Report korechi kaj shesh
+====================================================
+Error Type: not_found
+Which Step Failed: Copy the index.html file from the source directory to the destination directory without overwriting existing files.
+Error Message:
+1 of 1 files not copied
+
+Root Cause:
+Tool 'copy_files' failed with error: 1 of 1 files not copied
+====================================================

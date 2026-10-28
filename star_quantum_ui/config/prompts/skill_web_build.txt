@@ -1,0 +1,1 @@
+Skill Web Build: Use HTML5 standards, <!DOCTYPE html>, <meta name="viewport" content="width=device-width, initial-scale=1.0">. Use CSS Grid/Flexbox for 100% responsiveness. Apply dark glassmorphic styling, semantic HTML5 tags, accessible buttons, and zero broken inline styles.

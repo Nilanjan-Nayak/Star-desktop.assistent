@@ -1,0 +1,29 @@
+# STAR Quantum Assistant - Central Configuration
+version: "3.0"
+environment: "production"
+
+models:
+  primary: "qwen2.5:3b"
+  ollama_endpoint: "http://127.0.0.1:11434"
+  context_window: 4096
+  cloud_escalation: false
+
+security:
+  allowed_roots:
+    - "C:\\Users\\nilan\\Desktop"
+    - "C:\\Users\\nilan\\Downloads"
+    - "C:\\Users\\nilan\\Documents"
+    - "C:\\Users\\nilan\\STAR_workspace"
+  blocked_commands:
+    - "rmdir /s /q"
+    - "del /s /q"
+    - "format"
+    - "shutdown"
+  sandbox_timeout_seconds: 10
+
+memory:
+  task_tracker_path: "task_tracker.json"
+  learning_log_path: "learning_log.json"
+  undo_stack_path: "undo_stack.json"
+  prevention_rules_path: "config/rules/prevention_rules.json"
+  user_preferences_path: "config/rules/user_preferences.json"

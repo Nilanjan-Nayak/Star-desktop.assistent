@@ -1,0 +1,2068 @@
+{
+  "agent_stats": {
+    "total_tasks": 100,
+    "successful_tasks": 67,
+    "failed_tasks": 18,
+    "partially_done_tasks": 15,
+    "auto_fixed_tasks": 0,
+    "success_rate_percent": 67.0
+  },
+  "task_history": [
+    {
+      "task_id": 1,
+      "timestamp": "2026-10-26T14:45:15.867896",
+      "user_command": "Save a text file on the desktop",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "steps_done": [
+        "Create STAR_tasks folder on desktop",
+        "Write Python code to save a text file on the desktop"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 2,
+      "timestamp": "2026-10-26T14:45:38.947069",
+      "user_command": "Create a Python script to generate Fibonacci numbers on the desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "steps_done": [
+        "Create the STAR_tasks folder on the desktop to store the Fibonacci script.",
+        "Write a Python script to generate Fibonacci numbers on the desktop."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 3,
+      "timestamp": "2026-10-26T14:46:00.177732",
+      "user_command": "To search for information about AI agent frameworks on the web.",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "steps_done": [
+        "Search the web for information about AI agent frameworks."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 4,
+      "timestamp": "2026-10-26T14:47:03.090935",
+      "user_command": "AI agent framework ke jachan kore chhele koro",
+      "task_type": "other",
+      "status": "FAILED",
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 5,
+      "timestamp": "2026-10-26T14:47:40.039076",
+      "user_command": "Aaprono kichu kore test folder banaa ami ar moddhe app.py likhbo",
+      "task_type": "file_manage",
+      "status": "PARTIAL",
+      "steps_done": [
+        "Create a folder named 'test' at the provided path"
+      ],
+      "error_if_any": {
+        "error_type": "verification_failed",
+        "error_message": "verification failed: file content matches what was requested: ",
+        "which_step_failed": "Write a simple Python script named 'app.py' with a print statement in the test folder",
+        "root_cause": "Tool 'write_text' failed with error: verification failed: file content matches what was requested: "
+      },
+      "error_log_file": "error_logs\\error_005.txt",
+      "fix_applied": null,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 6,
+      "timestamp": "2026-10-26T14:47:58.963890",
+      "user_command": "Create a simple Python script named 'app.py' with a print statement in the test folder on Desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "steps_done": [
+        "Create STAR_tasks folder in Desktop",
+        "Write a simple print statement to app.py in STAR_tasks folder"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 7,
+      "timestamp": "2026-10-26T14:48:32.974195",
+      "user_command": "আমি বাড়ির ডেক্স্টার পর্যন্মাল একটা ফাইল সেভ করতে চাই",
+      "task_type": "other",
+      "status": "PARTIAL",
+      "steps_done": [
+        "Create a STAR_tasks folder in the allowed root directory"
+      ],
+      "error_if_any": {
+        "error_type": "verification_failed",
+        "error_message": "verification failed: file content matches what was requested: ",
+        "which_step_failed": "Write the content 'Desktop' to a text file named 'Desktop.txt' in the STAR_tasks folder",
+        "root_cause": "Tool 'write_text' failed with error: verification failed: file content matches what was requested: "
+      },
+      "error_log_file": "error_logs\\error_007.txt",
+      "fix_applied": null,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 8,
+      "timestamp": "2026-10-26T14:48:54.593593",
+      "user_command": "Create a file with a specific name including emojis.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "steps_done": [
+        "Create STAR_tasks folder in Downloads",
+        "Create a Python script that prints a message in a file named test_🎉.txt in the STAR_tasks folder in Downloads"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 9,
+      "timestamp": "2026-10-26T16:39:10.714358",
+      "user_command": "Save a text file on the desktop",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on desktop",
+        "Create and write to ekta_text_file.txt on desktop"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 10,
+      "timestamp": "2026-10-26T16:39:28.535780",
+      "user_command": "Create a Python script to generate Fibonacci numbers on the desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create the STAR_tasks/fibonacci_scripts folder on the desktop.",
+        "Write a Python script named app.py in the fibonacci_scripts folder to generate Fibonacci numbers."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 11,
+      "timestamp": "2026-10-26T16:39:51.704873",
+      "user_command": "AI agent framework ke jachan kore chhele koro",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Search the web for information about AI agent frameworks in Bangla"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 12,
+      "timestamp": "2026-10-26T16:40:25.330039",
+      "user_command": "Create a test folder on Desktop and write a Python script 'app.py' with a print statement.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Downloads",
+        "Write a simple Python script 'app.py' with a print statement in the STAR_tasks folder"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 13,
+      "timestamp": "2026-10-26T16:40:43.844325",
+      "user_command": "I have created a Python file 'app.py' on your desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on Desktop",
+        "Write a simple Python script 'app.py' with a print statement in STAR_tasks folder"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 14,
+      "timestamp": "2026-10-26T16:41:44.966238",
+      "user_command": "Kaj shesh, sob kichu jachai korechi.\n✓ 0ta file khuje peyechi\n✓ 0ta file khuje peyechi\n✓ 0ta file khuje peyechi\n✓ 0ta file khuje peyechi\n✓ folder ready: C:\\Users\\nilan\\STAR_workspace\\amare_files",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Find files containing the keyword 'amare' in the Documents folder and its subfolders.",
+        "Find files containing the keyword 'amare' in the Desktop folder and its subfolders.",
+        "Find files containing the keyword 'amare' in the Downloads folder and its subfolders.",
+        "Find files containing the keyword 'amare' in the STAR_workspace folder and its subfolders.",
+        "Create a directory named 'amare_files' within the STAR_workspace folder."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 15,
+      "timestamp": "2026-10-26T16:42:02.911066",
+      "user_command": "আমি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাই",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Desktop",
+        "Write 'not fully done' content to Desktop.py file"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": false,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 16,
+      "timestamp": "2026-10-26T16:42:28.946900",
+      "user_command": "Create a file with a specific name including emojis in the Downloads directory.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Downloads directory",
+        "list_dir"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": false,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 17,
+      "timestamp": "2026-10-26T16:44:58.222117",
+      "user_command": "Save a text file on the desktop",
+      "task_type": "file_manage",
+      "status": "PARTIAL",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on desktop"
+      ],
+      "error_if_any": {
+        "error_type": "verification_failed",
+        "error_message": "verification failed: file content matches what was requested: ",
+        "which_step_failed": "Create and write to text_file.txt on desktop",
+        "root_cause": "Tool 'write_text' failed with error: verification failed: file content matches what was requested: "
+      },
+      "error_log_file": "error_logs\\error_017.txt",
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 18,
+      "timestamp": "2026-10-26T16:45:18.893099",
+      "user_command": "I will create a Python script to generate Fibonacci numbers.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write Fibonacci number generating Python script to fibonacci.py in STAR_tasks folder"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 19,
+      "timestamp": "2026-10-26T16:45:36.311065",
+      "user_command": "AI agent framework ke jachan kore chhele kore chhele koro",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "3 minimum sources use kore AI agent framework ke jachan kore chhele kore chhele kore korte kore koro"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 20,
+      "timestamp": "2026-10-26T16:46:02.907240",
+      "user_command": "Create a simple calculator website using HTML and CSS.",
+      "task_type": "web_build",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Create a folder named 'calculator_website' under the provided folder path.",
+        "Write an HTML file with a simple calculator form in the 'calculator_website' folder.",
+        "Write a CSS file to style the calculator form in the 'calculator_website' folder."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 60,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 21,
+      "timestamp": "2026-10-26T16:46:19.253044",
+      "user_command": "Google search kore eita calculator website er verify korte kore",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Perform a web search to gather information about creating a calculator website"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 60,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 22,
+      "timestamp": "2026-10-26T16:46:38.322375",
+      "user_command": "Aaprono kichu kore test folder banaa ami ar moddhe app.py likhbo",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create a folder named STAR_tasks in the specified path",
+        "Write a simple Python script 'app.py' with a print statement in the STAR_tasks folder"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 23,
+      "timestamp": "2026-10-26T16:46:54.968428",
+      "user_command": "Create a Python file on the Desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on Desktop",
+        "Write a simple Python script 'app.py' with a print statement in the app.py file"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 24,
+      "timestamp": "2026-10-26T16:47:43.498511",
+      "user_command": "আমি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাই",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on Desktop",
+        "Write a simple Python script to save the file on Desktop"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 25,
+      "timestamp": "2026-10-26T16:48:04.305668",
+      "user_command": "Create a file with an emoji in the filename",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Desktop",
+        "Create a Python file with a print statement in the test_🎉.txt file"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 26,
+      "timestamp": "2026-10-26T17:17:02.050945",
+      "user_command": "I will create a text file on your desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create a STAR_tasks folder on the desktop if it doesn't exist.",
+        "Write a simple text file with a single line of text."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 27,
+      "timestamp": "2026-10-26T17:17:19.602591",
+      "user_command": "I will create a Python script to generate Fibonacci numbers.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write Fibonacci number generating Python script to fibonacci.py in STAR_tasks folder"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 28,
+      "timestamp": "2026-10-26T17:17:36.317480",
+      "user_command": "AI agent framework ke jachan kore chhele kore chhele koro",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "AI agent framework ke jachan kore chhele kore chhele kore ke 3 ta web e kaj kore chhele kore chhele kore korte pari"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 29,
+      "timestamp": "2026-10-26T17:18:15.580116",
+      "user_command": "AI agent framework ke jachan kore chhele kore chhele korte calculator website er HTML CSS diye kaj kore chhele kore korte pari",
+      "task_type": "web_build",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Create the calculator_website folder in the STAR_tasks directory",
+        "Create the css folder in the calculator_website directory",
+        "Write the HTML content for the calculator website in calculator_website.html file",
+        "Write the CSS content for the calculator website in calculator_website.css file"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 60,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 30,
+      "timestamp": "2026-10-26T18:31:52.547811",
+      "user_command": "I have created a test folder on your desktop and written a Python script 'app.py'.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create a test folder on Desktop and write a Python script 'app.py' with a print statement.",
+        "Write a Python script 'app.py' with a print statement in the test folder on Desktop."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 31,
+      "timestamp": "2026-10-26T18:32:20.525475",
+      "user_command": "I will create a Python file on your Desktop.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 80,
+      "steps_done": [],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "no approved code skill named 'create_folder_and_write_file'",
+        "which_step_failed": "Run the skill to create a test folder on the Desktop and write a Python script 'app.py'.",
+        "root_cause": "Tool 'run_skill' failed with error: no approved code skill named 'create_folder_and_write_file'"
+      },
+      "error_log_file": "error_logs\\error_031.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for run_skill before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for run_skill"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 32,
+      "timestamp": "2026-10-26T18:32:59.147566",
+      "user_command": "Kaj shesh, sob kichu jachai korechi.\n✓ folder ready: C:\\Users\\nilan\\STAR_workspace\\file_search",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create a directory named 'file_search' under the STAR workspace directory."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 33,
+      "timestamp": "2026-10-26T18:33:32.632416",
+      "user_command": "আপনি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাই",
+      "task_type": "other",
+      "status": "PARTIAL",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Desktop"
+      ],
+      "error_if_any": {
+        "error_type": "conflict",
+        "error_message": "already exists with different content: C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+        "which_step_failed": "Write a Python script to save a file on the desktop",
+        "root_cause": "Tool 'write_text' failed with error: already exists with different content: C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py"
+      },
+      "error_log_file": "error_logs\\error_033.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": false,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 34,
+      "timestamp": "2026-10-26T18:33:59.127752",
+      "user_command": "Create a file with an emoji in the filename",
+      "task_type": "file_manage",
+      "status": "PARTIAL",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Desktop"
+      ],
+      "error_if_any": {
+        "error_type": "conflict",
+        "error_message": "already exists with different content: C:\\Users\\nilan\\Desktop\\STAR_tasks\\test_🎉.txt",
+        "which_step_failed": "Write a simple Python script with an emoji in the filename",
+        "root_cause": "Tool 'write_text' failed with error: already exists with different content: C:\\Users\\nilan\\Desktop\\STAR_tasks\\test_🎉.txt"
+      },
+      "error_log_file": "error_logs\\error_034.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": false,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 35,
+      "timestamp": "2026-10-27T10:14:55.970010",
+      "user_command": "I will create a text file on your desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on desktop if it doesn't exist.",
+        "Write 'This is the content of the example text file.' to example.txt in STAR_tasks folder on desktop."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 36,
+      "timestamp": "2026-10-27T10:15:16.178965",
+      "user_command": "I will create a Python script to generate Fibonacci numbers.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write Fibonacci number generator Python script to C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 37,
+      "timestamp": "2026-10-27T10:15:35.718680",
+      "user_command": "AI agent framework ke jachan kore chhele kore chhele korte research korechi",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Search the web for AI agent framework research in Bangla"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 38,
+      "timestamp": "2026-10-27T10:16:42.430188",
+      "user_command": "AI agent framework ke jachan kore calculator website er HTML CSS diye kaj kore chhele kore korte pari",
+      "task_type": "web_build",
+      "status": "PARTIAL",
+      "confidence_score": 60,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write calculator website HTML code to calculator_website.html in Documents/STAR_tasks",
+        "Write calculator website CSS code to calculator_website.css in Documents/STAR_tasks",
+        "find_files",
+        "find_files",
+        "make_dir",
+        "copy_files",
+        "copy_files"
+      ],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "index.html not found in: C:\\Users\\nilan\\Documents\\STAR_tasks",
+        "which_step_failed": "serve_website",
+        "root_cause": "Tool 'serve_website' failed with error: index.html not found in: C:\\Users\\nilan\\Documents\\STAR_tasks"
+      },
+      "error_log_file": "error_logs\\error_038.txt",
+      "fix_applied": null,
+      "quality_score": 60,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for serve_website before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for serve_website"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 39,
+      "timestamp": "2026-10-27T10:17:02.785091",
+      "user_command": "Calculator website toiri kore HTML CSS diye",
+      "task_type": "web_build",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "web_search"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 60,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 40,
+      "timestamp": "2026-10-27T10:17:13.766764",
+      "user_command": "I have created a test folder on your desktop and written a Python script 'app.py'.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create a test folder on Desktop and write a Python script 'app.py' with a print statement.",
+        "Write a Python script 'app.py' with a print statement in the test folder on Desktop."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 41,
+      "timestamp": "2026-10-27T10:17:35.549992",
+      "user_command": "I will create a Python file on your Desktop.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 80,
+      "steps_done": [],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "no approved code skill named 'create_folder_and_write_file'",
+        "which_step_failed": "Run the create_folder_and_write_file skill to create a test folder on the Desktop and write a Python script 'app.py'.",
+        "root_cause": "Tool 'run_skill' failed with error: no approved code skill named 'create_folder_and_write_file'"
+      },
+      "error_log_file": "error_logs\\error_041.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for run_skill before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for run_skill"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 42,
+      "timestamp": "2026-10-27T10:18:13.492789",
+      "user_command": "I will find the 'star_core' folders in the specified locations and provide the path of the first found one.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 65,
+      "steps_done": [
+        "list_dir"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 43,
+      "timestamp": "2026-10-27T10:18:47.843121",
+      "user_command": "আমি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাই",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on desktop",
+        "find_files",
+        "open_url"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 44,
+      "timestamp": "2026-10-27T10:19:18.174336",
+      "user_command": "Creating a file with an emoji in its name in the Downloads folder.",
+      "task_type": "file_manage",
+      "status": "PARTIAL",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Downloads directory"
+      ],
+      "error_if_any": {
+        "error_type": "conflict",
+        "error_message": "already exists with different content: C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt",
+        "which_step_failed": "Write a simple Python script with a print statement in the test_🎉.txt file",
+        "root_cause": "Tool 'write_text' failed with error: already exists with different content: C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt"
+      },
+      "error_log_file": "error_logs\\error_044.txt",
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 45,
+      "timestamp": "2026-10-27T10:20:45.818456",
+      "user_command": "I will create a text file on your desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on desktop if it doesn't exist.",
+        "find_files",
+        "list_dir"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 46,
+      "timestamp": "2026-10-27T10:21:04.562859",
+      "user_command": "I will create a Python script to generate Fibonacci numbers.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write Fibonacci number generating Python script to fibonacci.py in STAR_tasks folder"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 47,
+      "timestamp": "2026-10-27T10:21:21.698167",
+      "user_command": "AI agent framework ke jachan kore chhele korte research korechi",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Perform web search to find information on AI agent framework in Bangla"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 48,
+      "timestamp": "2026-10-27T10:22:08.709944",
+      "user_command": "AI agent framework ke jachan kore calculator website er HTML CSS diye kaj kore chhele kore korte pari",
+      "task_type": "web_build",
+      "status": "PARTIAL",
+      "confidence_score": 60,
+      "steps_done": [
+        "Create calculator_website folder in STAR_tasks",
+        "Create STAR_tasks folder in Documents"
+      ],
+      "error_if_any": {
+        "error_type": "conflict",
+        "error_message": "already exists with different content: C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\index.html",
+        "which_step_failed": "Write index.html file with basic calculator form in STAR_tasks/calculator_website",
+        "root_cause": "Tool 'write_text' failed with error: already exists with different content: C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\index.html"
+      },
+      "error_log_file": "error_logs\\error_048.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 49,
+      "timestamp": "2026-10-27T10:22:26.858438",
+      "user_command": "Calculator website toiri kore HTML CSS diye korte chai",
+      "task_type": "web_build",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Search the web for information on verifying the creation of a calculator website using Google search"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 50,
+      "timestamp": "2026-10-27T10:22:37.454605",
+      "user_command": "I have created a test folder on your desktop and written a Python script 'app.py'.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create a test folder on Desktop and write a Python script 'app.py' with a print statement.",
+        "Write a Python script 'app.py' with a print statement in the test folder on Desktop."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 51,
+      "timestamp": "2026-10-27T10:22:59.075562",
+      "user_command": "I will create a Python file on your Desktop.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 80,
+      "steps_done": [],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "no approved code skill named 'create_folder_and_write_file'",
+        "which_step_failed": "Run the skill to create a test folder on the desktop and write a Python script 'app.py'.",
+        "root_cause": "Tool 'run_skill' failed with error: no approved code skill named 'create_folder_and_write_file'"
+      },
+      "error_log_file": "error_logs\\error_051.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for run_skill before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for run_skill"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 52,
+      "timestamp": "2026-10-27T10:23:33.825911",
+      "user_command": "আমি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাই",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write save_file.py script to save file on desktop"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 53,
+      "timestamp": "2026-10-27T10:24:13.480163",
+      "user_command": "I will create a file with an emoji in its name in the Downloads folder.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 80,
+      "steps_done": [],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "no approved code skill named 'create_file'",
+        "which_step_failed": "Run the create_file skill with the specified emoji in the file name and the STAR_tasks folder in the Downloads directory.",
+        "root_cause": "Tool 'run_skill' failed with error: no approved code skill named 'create_file'"
+      },
+      "error_log_file": "error_logs\\error_053.txt",
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for run_skill before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for run_skill"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 54,
+      "timestamp": "2026-10-27T10:26:18.106342",
+      "user_command": "I will create a text file on your desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on desktop if it doesn't exist.",
+        "Write 'Hello, World!' to a new text file named 'test.txt' in the STAR_tasks folder on desktop."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 55,
+      "timestamp": "2026-10-27T10:26:36.892864",
+      "user_command": "I will create a Python script to generate Fibonacci numbers.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write Fibonacci number generator Python script to fibonacci.py in STAR_tasks folder"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 56,
+      "timestamp": "2026-10-27T10:26:54.441100",
+      "user_command": "AI agent framework ke jachan kore chhele korte research korechi",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "web_search"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 57,
+      "timestamp": "2026-10-27T10:27:32.310275",
+      "user_command": "AI agent framework ke jachan kore calculator website er HTML CSS diye kaj kore chhele kore korte pari",
+      "task_type": "web_build",
+      "status": "PARTIAL",
+      "confidence_score": 60,
+      "steps_done": [
+        "Create calculator_website folder in STAR_tasks",
+        "Create STAR_tasks folder in Documents"
+      ],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "no approved code skill named 'web_search'",
+        "which_step_failed": "run_skill",
+        "root_cause": "Tool 'run_skill' failed with error: no approved code skill named 'web_search'"
+      },
+      "error_log_file": "error_logs\\error_057.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for run_skill before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for run_skill"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 58,
+      "timestamp": "2026-10-27T10:27:49.353210",
+      "user_command": "Calculator website toiri kore HTML CSS diye",
+      "task_type": "web_build",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Search the web for information on verifying the creation process for a calculator website"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 59,
+      "timestamp": "2026-10-27T10:27:59.524501",
+      "user_command": "I have created a test folder on your desktop and written a Python script 'app.py'.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create a test folder on Desktop and write a Python script 'app.py' with a print statement.",
+        "Write a Python script 'app.py' with a print statement in the test folder on Desktop."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 60,
+      "timestamp": "2026-10-27T10:28:24.260875",
+      "user_command": "I will create a Python file on your desktop.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 80,
+      "steps_done": [],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "no approved code skill named 'create_folder_and_write_file'",
+        "which_step_failed": "Run the create_folder_and_write_file skill to create a test folder on the desktop and write a Python script 'app.py'.",
+        "root_cause": "Tool 'run_skill' failed with error: no approved code skill named 'create_folder_and_write_file'"
+      },
+      "error_log_file": "error_logs\\error_060.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for run_skill before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for run_skill"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 61,
+      "timestamp": "2026-10-27T10:29:34.592303",
+      "user_command": "Creating a file with an emoji in its name in the Downloads folder.",
+      "task_type": "file_manage",
+      "status": "PARTIAL",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Downloads directory if it doesn't exist."
+      ],
+      "error_if_any": {
+        "error_type": "conflict",
+        "error_message": "already exists with different content: C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt",
+        "which_step_failed": "Write a simple Python script with a print statement in the test_🎉.txt file.",
+        "root_cause": "Tool 'write_text' failed with error: already exists with different content: C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt"
+      },
+      "error_log_file": "error_logs\\error_061.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 62,
+      "timestamp": "2026-10-27T10:31:02.956650",
+      "user_command": "I will create a text file on your desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on desktop if it doesn't exist",
+        "Write 'Hello, World!' to a new text file named 'test.txt' in STAR_tasks folder on desktop"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 63,
+      "timestamp": "2026-10-27T10:31:21.898388",
+      "user_command": "I will create a Python script to generate Fibonacci numbers.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write Fibonacci number generator Python script to C:\\Users\\nilan\\Documents\\STAR_tasks\\fibonacci.py"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 64,
+      "timestamp": "2026-10-27T10:31:44.517545",
+      "user_command": "AI agent framework ke jachan kore chhele korte research korechi",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "web_search"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 65,
+      "timestamp": "2026-10-27T10:32:17.370464",
+      "user_command": "AI agent framework ke jachan kore calculator website er HTML CSS diye kaj kore chhele kore korte pari",
+      "task_type": "web_build",
+      "status": "PARTIAL",
+      "confidence_score": 60,
+      "steps_done": [
+        "Create calculator_website folder in STAR_tasks",
+        "Create STAR_tasks folder in Documents"
+      ],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "no approved code skill named 'web_search'",
+        "which_step_failed": "run_skill",
+        "root_cause": "Tool 'run_skill' failed with error: no approved code skill named 'web_search'"
+      },
+      "error_log_file": "error_logs\\error_065.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for run_skill before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for run_skill"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 66,
+      "timestamp": "2026-10-27T10:32:34.916297",
+      "user_command": "Calculator website toiri kore HTML CSS diye",
+      "task_type": "web_build",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Search the web for information on verifying the calculator website creation process"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 67,
+      "timestamp": "2026-10-27T10:32:45.765097",
+      "user_command": "I have created a test folder on your desktop and written a Python script 'app.py'.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create a test folder on Desktop and write a Python script 'app.py' with a print statement.",
+        "Write a Python script 'app.py' with a print statement in the test folder on Desktop."
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 68,
+      "timestamp": "2026-10-27T10:33:12.254450",
+      "user_command": "I will create a Python file on your Desktop.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 80,
+      "steps_done": [],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "no approved code skill named 'create_folder_and_write_file'",
+        "which_step_failed": "Run the create_folder_and_write_file skill to create a test folder on the Desktop and write a Python script 'app.py'.",
+        "root_cause": "Tool 'run_skill' failed with error: no approved code skill named 'create_folder_and_write_file'"
+      },
+      "error_log_file": "error_logs\\error_068.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for run_skill before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for run_skill"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 69,
+      "timestamp": "2026-10-27T10:33:42.926369",
+      "user_command": "Kaj angshik hoyeche, puro ta sofol bola jachhe na.\n✓ folder ready: C:\\Users\\nilan\\Desktop\\STAR_tasks\n✗ Ber-tho dhap: Create a simple Python script 'save_file.py' with a print statement inside the 'STAR_tasks' directory — already exists with different content: C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+      "task_type": "file_manage",
+      "status": "PARTIAL",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create a directory named 'STAR_tasks' under the Desktop"
+      ],
+      "error_if_any": {
+        "error_type": "conflict",
+        "error_message": "already exists with different content: C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+        "which_step_failed": "Create a simple Python script 'save_file.py' with a print statement inside the 'STAR_tasks' directory",
+        "root_cause": "Tool 'write_text' failed with error: already exists with different content: C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py"
+      },
+      "error_log_file": "error_logs\\error_069.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 70,
+      "timestamp": "2026-10-27T10:34:03.323956",
+      "user_command": "আমি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাই",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Desktop",
+        "Write a Python script to save a file"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 71,
+      "timestamp": "2026-10-27T10:34:32.866059",
+      "user_command": "I will create a file with an emoji in its name in the Downloads folder.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 80,
+      "steps_done": [],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "no approved code skill named 'create_file@v1'",
+        "which_step_failed": "Create a Python script with a print statement in the Downloads folder.",
+        "root_cause": "Tool 'run_skill' failed with error: no approved code skill named 'create_file@v1'"
+      },
+      "error_log_file": "error_logs\\error_071.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for run_skill before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for run_skill"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 72,
+      "timestamp": "2026-10-27T10:54:18.416830",
+      "user_command": "I will create a text file on your desktop.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 85,
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 73,
+      "timestamp": "2026-10-27T10:54:40.518639",
+      "user_command": "I will create a Python script to generate Fibonacci numbers.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write Fibonacci number generating Python script to fibonacci.py in STAR_tasks"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 74,
+      "timestamp": "2026-10-27T10:55:01.424668",
+      "user_command": "AI agent framework ke jachan kore chhele koro",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "web_search"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 75,
+      "timestamp": "2026-10-27T10:55:21.310153",
+      "user_command": "Google search kore eita calculator website er verify korte jachai kora",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Perform a web search to find information about verifying a calculator website"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 76,
+      "timestamp": "2026-10-27T10:55:58.359894",
+      "user_command": "I will create a calculator website using HTML and CSS.",
+      "task_type": "web_build",
+      "status": "FAILED",
+      "confidence_score": 70,
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 77,
+      "timestamp": "2026-10-27T10:56:30.424420",
+      "user_command": "আপনি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাই",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Desktop",
+        "Write a Python script to save a file"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 78,
+      "timestamp": "2026-10-27T10:56:54.604547",
+      "user_command": "Creating a file with an emoji in its name in the Downloads folder.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Downloads if it doesn't exist",
+        "make_dir"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 79,
+      "timestamp": "2026-10-27T10:58:37.563548",
+      "user_command": "I will create a text file on your desktop.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 85,
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 80,
+      "timestamp": "2026-10-27T10:58:58.339829",
+      "user_command": "I will create a Python script to generate Fibonacci numbers.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 85,
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 81,
+      "timestamp": "2026-10-27T10:59:14.040259",
+      "user_command": "AI agent framework ke jachan kore chhele koro",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Search the web for information on AI agent framework in Bangla"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 82,
+      "timestamp": "2026-10-27T11:00:17.238986",
+      "user_command": "AI agent framework ke jachan kore calculator website er HTML CSS diye kaj kore chhele korte pari",
+      "task_type": "web_build",
+      "status": "FAILED",
+      "confidence_score": 70,
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 83,
+      "timestamp": "2026-10-27T11:00:44.158372",
+      "user_command": "Google search kore eita calculator website er verify kora",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Perform a web search to verify the provided website 'calculator website'"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 84,
+      "timestamp": "2026-10-27T11:01:19.432531",
+      "user_command": "I need to find a report about tasks.",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "find_files"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 85,
+      "timestamp": "2026-10-27T11:01:42.389659",
+      "user_command": "Kaj shesh, sob kichu jachai korechi.\n✓ folder ready: C:\\Users\\nilan\\Documents\\STAR_tasks\n✓ file save hoyeche: C:\\Users\\nilan\\Documents\\STAR_tasks\\empty_file.txt\n",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create an empty directory named 'STAR_tasks' under the first allowed root (C:\\Users\\nilan\\Documents)",
+        "Create an empty file named 'empty_file.txt' inside the 'STAR_tasks' directory"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 86,
+      "timestamp": "2026-10-27T11:02:03.129045",
+      "user_command": "আমি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাই",
+      "task_type": "other",
+      "status": "FAILED",
+      "confidence_score": 80,
+      "steps_done": [],
+      "error_if_any": {
+        "error_type": "os_error",
+        "error_message": "[WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\nilan\\\\Documents\\\\STAR_tasks\\\\empty_file.txt'",
+        "which_step_failed": "Create STAR_tasks folder in Desktop",
+        "root_cause": "Tool 'make_dir' failed with error: [WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\nilan\\\\Documents\\\\STAR_tasks\\\\empty_file.txt'"
+      },
+      "error_log_file": "error_logs\\error_086.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for make_dir before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for make_dir"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 87,
+      "timestamp": "2026-10-27T11:02:33.042919",
+      "user_command": "Creating a file with an emoji in its name in the Downloads folder.",
+      "task_type": "file_manage",
+      "status": "PARTIAL",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Downloads directory if it does not exist"
+      ],
+      "error_if_any": {
+        "error_type": "conflict",
+        "error_message": "already exists with different content: C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt",
+        "which_step_failed": "Write a Python script with a print statement in the test_🎉.txt file in the STAR_tasks folder in Downloads directory",
+        "root_cause": "Tool 'write_text' failed with error: already exists with different content: C:\\Users\\nilan\\Downloads\\STAR_tasks\\test_🎉.txt"
+      },
+      "error_log_file": "error_logs\\error_087.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 88,
+      "timestamp": "2026-10-27T13:37:56.565782",
+      "user_command": "report ready koro ar update koro",
+      "task_type": "system_report",
+      "status": "SUCCESS",
+      "confidence_score": 95,
+      "steps_done": [
+        "Updated docs/reports/PHASE_REPORT.md with Phase 9 enterprise status",
+        "Updated root PHASE_REPORT.md and README.md with 55/55 test benchmark results",
+        "Synchronized docs/INDEX.md with all 55 passing scenarios and documentation hubs",
+        "Validated system state and test matrix"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 95,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "approved"
+    },
+    {
+      "task_id": 89,
+      "timestamp": "2026-10-27T16:36:40.211747",
+      "user_command": "Star can help you create a Python library called UniFace for face analysis with various functionalities.",
+      "task_type": "file_manage",
+      "status": "FAILED",
+      "confidence_score": 85,
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 90,
+      "timestamp": "2026-10-27T16:38:24.277947",
+      "user_command": "Create a website for Family Court Apartments",
+      "task_type": "web_build",
+      "status": "FAILED",
+      "confidence_score": 45,
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 91,
+      "timestamp": "2026-10-27T16:39:31.787181",
+      "user_command": "Open YouTube and play a song",
+      "task_type": "other",
+      "status": "FAILED",
+      "confidence_score": 45,
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 92,
+      "timestamp": "2026-10-27T18:37:39.588708",
+      "user_command": "To start the local server of the user's LLM",
+      "task_type": "other",
+      "status": "FAILED",
+      "confidence_score": 70,
+      "steps_done": [],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 93,
+      "timestamp": "2026-10-27T22:16:03.383244",
+      "user_command": "I will create a text file on your desktop.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on desktop",
+        "Write 'Hello, World!' to test.txt on desktop"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 90,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 94,
+      "timestamp": "2026-10-27T22:16:20.764167",
+      "user_command": "I will create a Python script to generate Fibonacci numbers.",
+      "task_type": "file_manage",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents",
+        "Write Fibonacci number generator Python script to fibonacci.py in STAR_tasks"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 95,
+      "timestamp": "2026-10-27T22:17:13.225238",
+      "user_command": "AI agent framework ke jachan kore chhele korechi",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Search the web for information on AI agent framework research"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 96,
+      "timestamp": "2026-10-27T22:17:46.531541",
+      "user_command": "AI agent framework ke jachan kore calculator website er HTML CSS diye kaj kore chhele korte pari",
+      "task_type": "web_build",
+      "status": "PARTIAL",
+      "confidence_score": 60,
+      "steps_done": [
+        "Create calculator_website folder in STAR_tasks",
+        "Create STAR_tasks folder in Documents"
+      ],
+      "error_if_any": {
+        "error_type": "conflict",
+        "error_message": "already exists with different content: C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\index.html",
+        "which_step_failed": "Write index.html file with basic calculator form in STAR_tasks/calculator_website",
+        "root_cause": "Tool 'write_text' failed with error: already exists with different content: C:\\Users\\nilan\\Documents\\STAR_tasks\\calculator_website\\index.html"
+      },
+      "error_log_file": "error_logs\\error_096.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for write_text before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for write_text"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 97,
+      "timestamp": "2026-10-27T22:18:05.078159",
+      "user_command": "Google search kore eita calculator website er verify kora",
+      "task_type": "web_research",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Perform a web search to verify the 'calculator_website'"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 98,
+      "timestamp": "2026-10-27T22:18:29.338232",
+      "user_command": "A folder named STAR_tasks has been created on the desktop and a file named 'calculator_website' has been created inside it.",
+      "task_type": "web_build",
+      "status": "SUCCESS",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create STAR_tasks folder on desktop",
+        "Write a simple Python script 'app.py' inside calculator_website folder"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 99,
+      "timestamp": "2026-10-27T22:19:17.274792",
+      "user_command": "Report korechi kaj shesh",
+      "task_type": "other",
+      "status": "PARTIAL",
+      "confidence_score": 80,
+      "steps_done": [
+        "Create the destination directory for the report."
+      ],
+      "error_if_any": {
+        "error_type": "not_found",
+        "error_message": "1 of 1 files not copied",
+        "which_step_failed": "Copy the index.html file from the source directory to the destination directory without overwriting existing files.",
+        "root_cause": "Tool 'copy_files' failed with error: 1 of 1 files not copied"
+      },
+      "error_log_file": "error_logs\\error_099.txt",
+      "fix_applied": null,
+      "quality_score": 75,
+      "sandbox_verified": true,
+      "future_prevention": {
+        "rule_added": "Verify parameters for copy_files before running",
+        "code_change": "Auto-prevention rule added to task_tracker",
+        "checklist_item": "Check pre-conditions for copy_files"
+      },
+      "user_satisfaction": "no_feedback"
+    },
+    {
+      "task_id": 100,
+      "timestamp": "2026-10-27T22:20:36.268595",
+      "user_command": "আপনি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাচ্ছেন",
+      "task_type": "other",
+      "status": "SUCCESS",
+      "confidence_score": 70,
+      "steps_done": [
+        "Create STAR_tasks folder in Documents if it doesn't exist",
+        "write_text"
+      ],
+      "error_if_any": null,
+      "error_log_file": null,
+      "fix_applied": null,
+      "quality_score": 80,
+      "sandbox_verified": false,
+      "future_prevention": null,
+      "user_satisfaction": "no_feedback"
+    }
+  ],
+  "error_patterns": [
+    {
+      "pattern_name": "verification_failed",
+      "occurred_times": 3,
+      "last_occurred": "2026-10-26",
+      "permanent_fix": "Tool 'write_text' failed with error: verification failed: file content matches what was requested: ",
+      "status": "RECURRING"
+    },
+    {
+      "pattern_name": "not_found",
+      "occurred_times": 11,
+      "last_occurred": "2026-10-27",
+      "permanent_fix": "Tool 'run_skill' failed with error: no approved code skill named 'create_folder_and_write_file'",
+      "status": "RECURRING"
+    },
+    {
+      "pattern_name": "conflict",
+      "occurred_times": 8,
+      "last_occurred": "2026-10-27",
+      "permanent_fix": "Tool 'write_text' failed with error: already exists with different content: C:\\Users\\nilan\\Desktop\\STAR_tasks\\save_file.py",
+      "status": "RECURRING"
+    },
+    {
+      "pattern_name": "os_error",
+      "occurred_times": 1,
+      "last_occurred": "2026-10-27",
+      "permanent_fix": "Tool 'make_dir' failed with error: [WinError 183] Cannot create a file when that file already exists: 'C:\\\\Users\\\\nilan\\\\Documents\\\\STAR_tasks\\\\empty_file.txt'",
+      "status": "RECURRING"
+    }
+  ],
+  "prevention_rules": [
+    "Age folder check koro, tarpor file save koro",
+    "Web build e mobile responsive test mandatory",
+    "Research e minimum 3 source use koro",
+    "Code edit er age backup nao",
+    "Verify URL protocol and validity before network request",
+    "Verify parameters for write_text before running",
+    "Verify parameters for run_skill before running",
+    "Verify parameters for serve_website before running",
+    "Verify parameters for make_dir before running",
+    "Verify parameters for copy_files before running"
+  ],
+  "last_self_audit": "2026-10-27"
+}

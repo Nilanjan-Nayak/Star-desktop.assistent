@@ -1,0 +1,8 @@
+{
+  "language_preference": "English and Banglish fluent",
+  "theme": "Dark Quantum Cyberpunk glassmorphism",
+  "preferred_file_root": "Desktop",
+  "code_formatting": "PEP8, type hints, docstrings, main guard",
+  "web_design": "HTML5, responsive CSS grid/flex, dark modern aesthetics, no inline styles",
+  "execution_mode": "Auto-sandbox verification with backup rollback snapshot"
+}

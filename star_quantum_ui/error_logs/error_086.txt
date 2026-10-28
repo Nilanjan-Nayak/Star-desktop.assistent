@@ -1,0 +1,13 @@
+====================================================
+ERROR LOG: #086
+Date/Time: 2026-10-27T11:02:03.129045
+Command: আমি বাড়ির ডেক্স্টার একটা ফাইল সেভ করতে চাই
+====================================================
+Error Type: os_error
+Which Step Failed: Create STAR_tasks folder in Desktop
+Error Message:
+[WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\nilan\\Documents\\STAR_tasks\\empty_file.txt'
+
+Root Cause:
+Tool 'make_dir' failed with error: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\nilan\\Documents\\STAR_tasks\\empty_file.txt'
+====================================================

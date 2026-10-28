@@ -1,0 +1,134 @@
+[
+  {
+    "timestamp": "2026-10-26T14:49:02.334750",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-26T14:49:02.347914",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-26T16:42:37.113275",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-26T16:42:37.129425",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-26T16:48:12.797707",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-26T16:48:12.822980",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-26T18:34:07.913691",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-26T18:34:07.940699",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-27T10:19:27.284571",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-27T10:19:27.310401",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-27T10:24:22.222570",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-27T10:24:22.260379",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-27T10:29:43.631053",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-27T10:29:43.653783",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-27T10:34:41.168283",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-27T10:34:41.210346",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-27T10:56:54.837337",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-27T10:56:54.862824",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-27T11:02:33.150887",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-27T11:02:33.167504",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  },
+  {
+    "timestamp": "2026-10-27T22:20:50.154115",
+    "rule": "PATH_TRAVERSAL_BLOCK",
+    "details": "Attempted relative directory traversal",
+    "input": "../../../etc/passwd poro"
+  },
+  {
+    "timestamp": "2026-10-27T22:20:50.184390",
+    "rule": "DANGEROUS_COMMAND_BLOCK",
+    "details": "Matched pattern: \\brm\\s+-rf\\b",
+    "input": "file save koro; rm -rf /"
+  }
+]

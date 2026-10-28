@@ -1,0 +1,1 @@
+Skill File Operations: Check and verify destination folders before saving. Always take an atomic backup before modifying or overwriting existing files. Support Unicode and emoji file paths. Restrict all operations to allowed user directories.

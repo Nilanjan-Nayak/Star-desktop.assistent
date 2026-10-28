@@ -1,0 +1,14 @@
+# ==============================================================================
+# STAR QUANTUM ASSISTANT - PYTHON DEPENDENCY MANIFEST
+# ==============================================================================
+
+# Core GUI & Visual Framework (Mandatory for Desktop UI)
+PySide6>=6.6.0
+
+# ------------------------------------------------------------------------------
+# Optional Voice & Multimodal Extensions (Uncomment if using voice/continuous STT)
+# ------------------------------------------------------------------------------
+# SpeechRecognition>=3.10.0   # Microphone listening & Google speech fallback
+# sounddevice>=0.4.6          # High-performance audio I/O & live level metering
+# numpy>=1.24.0               # Fast buffer operations for RMS calculations
+# openai-whisper              # Offline local STT engine (optional)
